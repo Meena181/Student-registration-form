@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-USA">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<title>Student Form</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="wrap">
+  <section class="form">
+  <div class="container">
+  <h1>Student application form</h1>
+    <label for="appnumber">Application Number:</label>
+	<input type="text" class="form-control appnumber">
+	<p class="errorone">Please enter application number!</p>
+	<label for="name">Student Name:</label>
+	<input type="text" class="form-control studname">
+	<p class="errortwo">Please enter student name!</p>
+	<label for="age">Age:</label>
+	<input type="text" class="form-control age">
+	<p class="errorthree">Please enter age!</p>
+	<label for="fathername">Father Name:</label>
+	<input type="text" class="form-control fathername">
+	<p class="errorfour">Please enter fathername!</p>
+	<label for="mothername">Mother Name:</label>
+	<input type="text" class="form-control mothername">
+	<p class="errorfive">Please enter mothername!</p>
+	<label for="address">Address:</label>
+	<input type="text" class="form-control address">
+	<p class="errorsix">Please enter address!</p>
+	<label for="class">Class applying For:</label>
+	<input type="text" class="form-control standard">
+	<p class="errorseven">Please enter class applying for!</p>
+	<label for="percentage">Percentage of mark obtained:</label>
+	<input type="text" class="form-control percentage">
+	<p class="erroreight">Please enter percentage of mark obtained!</p>
+	<label for="board">Board of learning:</label>
+	<input type="text" class="form-control board">
+	<p class="errornine">Please enter board of learning</p>
+	<input type="submit" class="button" value="submit" onclick="validate();">
+	</div>
+	</section>
+	</div>
+	<div class="table">
+	<input type="submit" class="addbutton" value="add" onclick="formshow();">
+	<table>
+	<tbody>
+	  <tr>
+	    <th>Application number</th>
+		<th>student name</th>
+		<th>Age</th>
+		<th>father name</th>
+		<th>mother name</th>
+		<th>Address</th>
+		<th>class applying for</th>
+		<th>percentage of mark obtained</th>
+		<th>board of learning</th>
+	   </tr>
+	  </tbody>
+	  </table>
+	</div>
+	<script src="script.js"></script>
+  </body>
+</html>

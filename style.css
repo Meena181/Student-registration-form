@@ -1,0 +1,98 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.wrap{
+	width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8080803d;
+}
+.form{
+	width: 40vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 1px 2px 8px #000;
+}
+h1{
+	text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-control{
+	margin-bottom: 5px;
+    width: 100%;
+    height: 25px;
+    border: 1px solid silver;
+    margin-top: 5px;
+}
+.button{
+	    height: 30px;
+    width: 75px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: green;
+    border: none;s
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+}
+.container{
+	width: 300px;
+}
+table{
+	border-collapse: collapse;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.table{
+	display:none;
+}
+
+th,td{
+	width: 100px;
+    border: 1px solid black;
+    text-transform: capitalize;
+    color: brown;
+    font-size: 15px;
+    height: 60px;
+}
+.addbutton{
+	 height: 30px;
+    width: 75px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+	margin-left:1059px;
+}
+
+p{
+    color: red;
+    font-size: 10px;
+    text-transform: capitalize;
+	display:none;
+}
+
